@@ -152,7 +152,7 @@ theme="light"
             <h2 className='text-2xl text-center text-blue-600 font-bold'>Wrapped and Saved</h2>
           </div>
           {/* <input value=} type="text" className='rounded-full px-5 py-2 my-5 border-3 '/> */}
-          <input type="text" value={details.uniquename} onChange={handlechange} name="uniquename" id="" placeholder='enter your unique key' className='rounded-full px-8 py-1 text-black'/>
+          {/* <input type="text" value={details.uniquename} onChange={handlechange} name="uniquename" id="" placeholder='enter your unique key' className='rounded-full px-8 py-1 text-black'/> */}
           <input onChange={handlechange} value={details.sitename} type="text" name='sitename' id="" placeholder="Enter the Website link" className='rounded-full px-5 py-2 my-5 border-3 text-red-600 ' />
           <div className="otherc flex justify-between">
             <input onChange={handlechange} value={details.username} type="text" name="username" id="" placeholder="Enter the Name" className='rounded-full px-8 py-1 text-black' />
